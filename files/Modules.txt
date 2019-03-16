@@ -1,0 +1,25 @@
+MODULES(5)                                       File Formats Manual                                       MODULES(5)
+
+NAME
+       /etc/modules - kernel modules to load at boot time
+
+DESCRIPTION
+       The  /etc/modules  file contains the names of kernel modules that are to be loaded at boot time, one per line.
+       Arguments can be given in the same line as the module name. Lines beginning with a '#' are ignored.
+
+EXAMPLE
+           # /etc/modules: kernel modules to load at boot time.
+           #
+           # This file contains the names of kernel modules that
+           # should be loaded at boot time, one per line. Lines
+           # beginning with "#" are ignored.
+
+           w83781d
+
+           3c509 irq=15
+           nf_nat_ftp
+
+SEE ALSO
+       depmod(8) modprobe(8) modprobe.conf(5)
+
+Debian GNU/Linux                                     Version 1.2                                           MODULES(5)
