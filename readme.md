@@ -1,3 +1,3 @@
-#all-WSL-man
+# all-WSL-man
 
 all `man` for WSL
