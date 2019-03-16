@@ -5,7 +5,7 @@ if __name__ == "__main__":
     md = open("catalog.md","w",newline = "\n")
     for line in f:
         line=line[:-1]
-        current = f'[{line}](files/{line})\n'
+        current = f'[{line}](files/{line})\n\n'
         md.write(current)
     md.close()
     f.close()
